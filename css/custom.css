@@ -6,8 +6,8 @@
 }
 
 .social-image-icon-twitter {
-    width: 40px;
-    height: 40px;
+    width: 5px;
+    height: 5px;
 }
 
 .social-image-icon-instagram {
@@ -22,4 +22,11 @@ width: 100%;
 height: 60px;
 line-height: 60px;
 background-color: #a7a1a1;
+}
+
+/* Footer */
+
+footer {
+    background: #222;
+    padding: 10px;
 }
