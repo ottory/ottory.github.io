@@ -15,18 +15,7 @@
     height: 10px;
 }
 
-.footer {
-position: absolute;
-bottom: 0;
-width: 100%;
-height: 60px;
-line-height: 60px;
-background-color: #a7a1a1;
-}
+
 
 /* Footer */
 
-footer {
-    background: #222;
-    padding: 10px;
-}

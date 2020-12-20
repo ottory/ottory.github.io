@@ -10,34 +10,26 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css">
   </head>
-  <body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
 
 
-<!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-        <div class="container-fluid mx-3">
-          <a class="navbar-brand" href="#">Andrew Ryan</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html"><u>Home</u></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="projects.html"><u>Projects</u></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html"><u>Contact</u></a>
-              </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="contact.html"><u>Contact</u></a>
-              </li> -->
-            </ul>
-           
-          </div>
-        </div>
+  <body>
+
+
+      <!-- NavBar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+        <a class="navbar-brand order-1" href="#">Andrew Ryan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Projects</a>
+                <a class="nav-item nav-link" href="#">Contacts</a>
+              </div>
+            </div>
+      </div>
       </nav>
 
 
@@ -47,21 +39,105 @@
     <div class="container text-center mt-2">
     <h1 class="display-6">Web Developer</h1>
     </div>
+    <div class="text-center">
+     <button type="button"class="btn btn-primary btn-sm" data-toggle="modal" data-target="#register">Message Me</button>
+      </div> 
+       
 </div>
 
-  <!-- <h1 id="projects" class="display-6 text-center my-4">About</h1> -->
-    <div class="container pb-5">
+<!-- About/Intrests -->
+    <div class="container">
         <div class="row g-2">
             <div class="col-lg bg-white">
-                  <h3 class="p-3">About</h3>
+                  <h3 class="p-2">About</h3>
                 Aspiring web developer who is passonate about creating responsive websites. I love living in Los Angeles surrounded by diverse cultures, beautiful beaches, amazing hikes and incredible food.
             </div>
             <div class="col-lg bg-white">
-                  <h3 class="p-3">Interests</h3>
+                  <h3 class="p-2">Interests</h3>
                   In my free time I love to build websites for my firends and family members. I enjoy hiking, running, and going to the beach. 
+            </div>
+            <div class="col-lg order-lg-3">
+              <h3 class="mb-4">Expierence</h3>
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action"><strong>HTML</strong>: 1 year</a>
+                <a href="#" class="list-group-item list-group-item-action"><strong>CSS</strong>: 1 year</a>
+                <a href="#" class="list-group-item list-group-item-action"><strong>JavaScript</strong>: 1 year</a>
+                <a href="#" class="list-group-item list-group-item-action"><strong>Photo Shop</strong>: 5 years</a>
+                <a href="#" class="list-group-item list-group-item-action"><strong>SQL</strong>: 1 year</a>
+                <a href="#" class="list-group-item list-group-item-action"><strong>Excel</strong>: 5 years</a>
+              </div>
             </div>
         </div>
     </div>
+
+    <!-- About/Intrests -->
+
+      <!-- Projects -->
+      <h1 id="speakers" class="display-4 text-center my-5 text-muted">Projects</h1>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="img/vivianne.png" class="card-img-top" alt="Vivianne">
+              <div class="card-body">
+                <h5 class="card-title">Vivianne McVue</h5>
+                <p class="card-text">Vivianne is a web developer and teacher who is passionate about building scalable, data-driven web apps, especially ones that address old problems with new tech!</p>
+              </div>
+              </div>
+            </div>
+           
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="img/nodestradamus.png" class="card-img-top" alt="nodestradamus">
+              <div class="card-body">
+                <h4 class="card-title">NodeStradamus</h4>
+                <p class="card-text">"NodeStra" is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.</p>
+              </div>
+              </div>
+          </div>  
+         
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="img/robbie.png" class="card-img-top" alt="robbie">
+              <div class="card-body">
+                <h4 class="card-title">Robbie Redux</h4>
+                <p class="card-text">Robbie is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing barriers to learning code.</p>
+              </div>
+              </div>
+          </div> 
+         
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="img/ecma.png" class="card-img-top" alt="ecma">
+              <div class="card-body">
+                <h4 class="card-title">Ecma Scriptnstuff</h4>
+                <p class="card-text">Ecma found her passion for programming and teaching over 15 years ago. She is excited to introduce you to all of the wonders of JavaScript.</p>
+              </div>
+              </div>
+           </div>
+          
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+            <img src="img/jay.png" class="card-img-top" alt="jay">
+              <div class="card-body">
+                <h4 class="card-title">Jay Query</h4>
+                <p class="card-text">Jay is a developer, author of CSS: The Missing Manual, JavaScript &amp; jQuery: The Missing Manual, and web development teacher.</p>
+              </div>
+          </div>
+        </div>
+          
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+            <img src="img/json.png" class="card-img-top" alt="json">
+            <div class="card-body">
+              <h4 class="card-title">Json Babel</h4>
+              <p class="card-text">All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.</p>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <!-- Projects -->
 
 
        <!-- footer -->
@@ -78,7 +154,7 @@
             </div>
          </div>
     </footer> -->
-    
+    <div class="container footer">
     <div class="row py-3">
       <div class="col-md-7"> 
           <ul class="nav">
@@ -104,13 +180,13 @@
               </li>
           </ul>
       </div>
-      <div class="col-md text-md-right">
-        <small>&copy; 2020 Andrew Ryan &amp; Treehouse</small>
+      <div class="col-md text-center text-md-right">
+        <small>&copy; 2020 Andrew Ryan</small>
       </div>
     </div>
           
       <!-- footer -->
-
+  </div>
     
 
 
