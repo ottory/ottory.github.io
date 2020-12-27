@@ -1,0 +1,20 @@
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+
+.img-avatar {
+   @include centered;
+    margin-top: 10px;
+    max-width: 100%; 
+    max-height: 100%;
+      &-frame {
+        @include centered;
+        margin-top: 10px;
+        max-width: 100%;
+        padding: 13px;
+        border: 1px solid #ccc;
+      }
+        &-img-logo {
+          @include centered;
+        }
+}

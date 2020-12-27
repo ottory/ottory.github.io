@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after{
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box; 
+
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 12px;
+    margin: 0 auto;
+    background-color: rgb(236, 236, 235);
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+    grid-template-areas: 
+        "header"
+        "main";
+}
+
+header {
+    grid-area: header;
+    text-align: center;
+
+}
+h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: medium;
+}
+
+
+/************************************/
+/************** Main ****************/
+/************************************/
+
+main { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-area: main;
+    text-align: center;
+}
+.card {
+   margin: 10px;
+   border: 1.5px solid rgb(194, 194, 212);
+   border-radius: 2%;
+   padding: 10px;
+   text-align: center;
+   background-color: rgb(247, 247, 247);
+   word-break: break-all;
+
+}
+.card:hover {
+    cursor: pointer;
+}
+.avatar {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.text-container {
+    margin: 0;
+}
+.name,
+.email, 
+.cell,
+.address {
+    margin: 5px;
+}
+/************************************/
+/************** Modal ***************/
+/************************************/
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(26, 25, 25, 0.5);
+    cursor: pointer;
+} 
+.modal {
+    width: 305px;
+    height: 305px;
+    margin: 15% auto auto;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #778;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+
+.modal-close {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(253, 253, 253);
+   
+}
+ .hidden {
+    display: none;
+} 
+
+
+
+/************************************/
+/************** Media Query's *******/
+/************************************/
+
+@media (min-width: 768px) {
+header {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+ main {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(265px, 1fr)); 
+ }
+ .card {
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     font-size: 12px;
+  
+ }
+ .text-container {
+     padding-left: 25px;
+ }
+ .avatar {
+     width: 70px;
+     height: 70px;
+ }
+}
+
+/************************************/
+/**********   Media 1024  ***********/
+/************************************/
+
+  @media (min-width: 1024px){
+    h1 {
+       margin: 0;
+    }
+
+ 
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto; 
+        column-gap: 5px;
+        row-gap: 5px;
+    }
+    
+    .card {
+        font-size: 12px;
+        border: 1px solid rgba(163, 159, 159, 0.8);
+        padding: 20px;
+        text-align: left;
+        border-radius: 2%;
+        
+    }
+    
+    .avatar {
+        border-radius: 50%;
+        width: 8em;
+        height: auto;
+        
+    }
+    .text-container {
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 20px;
+    }
+}  

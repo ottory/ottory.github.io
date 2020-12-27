@@ -1,0 +1,7 @@
+
+
+//a funciton to lighten buttons on hover by 15%
+
+@function lighter($base) {
+    @return lighten($base, 15%);
+}

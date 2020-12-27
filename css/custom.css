@@ -17,5 +17,14 @@
 
 
 
+.card-img {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+
+}
+
 /* Footer */
 
