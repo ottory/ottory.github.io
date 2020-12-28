@@ -18,7 +18,16 @@
 
 
 .card-img {
-    width: 40%;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+
+}
+
+.card-img1 {
+    width: 15%;
     display: block;
     margin-left: auto;
     margin-right: auto;
