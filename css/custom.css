@@ -18,8 +18,8 @@
 
 
 .card-img {
-    width: 23%;
-    
+    width: 20%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
@@ -28,8 +28,8 @@
 }
 
 .card-img1 {
-    width: 19%;
-   
+    width: 15%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
@@ -38,9 +38,9 @@
 }
 
 .card-img2 {
-    width: 19%;
+    width: 15%;
     
-    
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
