@@ -15,10 +15,18 @@
     height: 10px;
 }
 
-
-
 .card-img {
-    width: 20%;
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    
+
+}
+
+.card-img0 {
+    width: 15%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -39,7 +47,6 @@
 
 .card-img2 {
     width: 15%;
-    
     display: block;
     margin-left: auto;
     margin-right: auto;
