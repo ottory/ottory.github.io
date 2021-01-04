@@ -14,6 +14,42 @@
     width: 10px;
     height: 10px;
 }
+/* profile image  */
+.img-wrapper {
+  position: relative;
+ }
+
+.img-responsive {
+  width: 20%;
+
+  height: auto;
+  border-radius: 10%;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 90;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+/* button size responsive */
+.btn-responsive {
+  /* matches 'btn-md' */
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+/* cards */
 
 .card-img {
     width: 35%;
@@ -78,3 +114,22 @@
 
 /* Footer */
 
+/* media queries */
+@media (max-width:760px) { 
+  /* matches 'btn-xs' */
+  .btn-responsive {
+      padding: 1px 5px;
+      font-size: 12px;
+      line-height: 1.5;
+      border-radius: 3px;
+  }
+}
+@media (max-width:320px) { 
+  /* matches 'btn-xs' */
+  .btn-responsive {
+      padding: 1px 5px;
+      font-size: 12px;
+      line-height: 1.5;
+      border-radius: 3px;
+  }
+}
