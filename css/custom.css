@@ -24,7 +24,7 @@
 /* cards */
 
 .card-img {
-    width: 35%;
+    width: 45%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -33,7 +33,38 @@
 
 }
 
-.card-img1 {
+.card-style-guide {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.card-emp-direct {
+    width: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  
+}
+
+.card-guessing {
+  width: 55%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  
+
+}
+
+.card {
+  border: none;
+}
+
+/* .card-img1 {
     width: 20px;
     display: block;
     margin-left: auto;
@@ -52,7 +83,7 @@
 
     
 
-}
+} */
 /* Icons */
 .lang-image-icon {
     display: flex;
@@ -95,6 +126,7 @@
       line-height: 1.5;
       border-radius: 3px;
   }
+ 
 }
 @media (max-width:320px) { 
   /* matches 'btn-xs' */
@@ -103,5 +135,26 @@
       font-size: 12px;
       line-height: 1.5;
       border-radius: 3px;
+  }
+  .
+ 
+  
+}
+@media (min-width:1024px){
+  .card-guessing {
+    width: 30%;
+  }
+  
+}
+@media (min-width:768px){
+  .profile-image {
+    width: 32%;
+    padding-left: 50px;
+  }
+  .svg {
+    text-align: center;
+  }
+  .title {
+    padding-bottom: 40px;
   }
 }
