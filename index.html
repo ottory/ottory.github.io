@@ -20,7 +20,7 @@
 
 
       <!-- NavBar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container">
         <a class="navbar-brand order-1" href="#">Andrew Ryan</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,9 +28,9 @@
         </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-item nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="projects.html">Projects</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
+                <a class="nav-item nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#projects">Projects</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
               </div>
             </div>
       </div>
@@ -42,12 +42,35 @@
 <div class="jumbotron jumbotron-fluid bg-info text-white">
     <div class="container text-center mt-2">
     <h1 class="display-6">Web Developer</h1>
- 
-  
-    <div class="btn-group " role="group" aria-label="mail">
-      <a class="btn-primary btn-sm" href="mailto:drewryan10@gmail.com?subject=Website&nbsp;query.">Message Me</a>
+
+    <div class="container-fluid  pt-3">
+         
+      <div class="row ml-2">
+       <div class="col-4">
+        <?xml version="1.0" encoding="iso-8859-1"?><svg class="css-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470.699 470.699" height="56.693px" width="56.693px"><path d="M426.981 0H43.701C34.52 0 27.632 7.769 28.442 16.949L63.45 409.254c.811 9.173 8.745 18.774 17.644 21.253L219.1 468.842c8.887 2.463 23.413 2.479 32.313.032l138.177-38.281c8.901-2.472 16.835-11.986 17.645-21.175l35.023-392.469C443.068 7.769 436.209 0 426.981 0zM360.51 141.611a.134.134 0 01-.112.117.134.134 0 01-.144-.077L252.13 185.96a3.485 3.485 0 001.321 6.708h84.103a15.772 15.772 0 0115.682 17.443l-13.141 123.273a15.77 15.77 0 01-10.447 13.205l-89.269 31.41a15.761 15.761 0 01-10.397.025l-88.852-30.778a15.771 15.771 0 01-10.52-13.228l-5.957-55.828a10.388 10.388 0 0110.331-11.492h24.725c5.313 0 9.769 4.007 10.331 9.289l3.655 34.316 61.521 21.385 61.803-21.58 7.559-71.17H129.835a10.39 10.39 0 01-10.327-9.25l-3.327-30.164a10.388 10.388 0 016.366-10.745l111.837-46.109a2.872 2.872 0 00-1.093-5.528H115.542a6.926 6.926 0 01-6.888-6.201l-3.406-32.421a6.927 6.927 0 016.887-7.648h246.379a6.928 6.928 0 016.881 7.707l-4.885 43.032z"fill="#00BFFF"/></svg>
+      </div>
+
+        <div class="col-4">
+        <svg class="html-icon" viewBox="0 0 511.997 511.997" height="56.693px" width="56.693px" ><path d="M38.238 0c-4.706 0-8.212 3.835-7.794 8.521l39.671 444.978c.418 4.687 4.468 9.552 9.004 10.811l168.344 46.742c4.535 1.259 11.954 1.259 16.49.003l168.856-46.819c4.535-1.258 8.59-6.122 9.007-10.808L481.553 8.521C481.974 3.835 478.464 0 473.758 0H38.238zm358.83 102.054c-.375 4.18-1.023 11.437-1.441 16.124l-1.045 11.675c-.421 4.685-1.02 11.386-1.336 14.889-.315 3.504-.614 6.371-.669 6.371H184.39c-4.706 0-8.212 3.835-7.794 8.521l3.667 40.99c.418 4.685 4.612 8.521 9.317 8.521h190.299c4.191 0 7.312 3.421 6.932 7.601-.382 4.18-1.034 11.439-1.451 16.124l-11.791 132.15c-.421 4.687-.953 10.674-1.182 13.306-.234 2.63-4.134 5.811-8.669 7.069l-99.474 27.582a2971.712 2971.712 0 01-8.373 2.312c-.07.015-3.836-1.003-8.373-2.26l-99.58-27.632c-4.535-1.258-8.587-6.122-9.004-10.809l-6.41-71.945c-.418-4.687 3.092-8.522 7.798-8.522h39.751c4.706 0 8.896 3.835 9.317 8.522l2.514 28.164c.418 4.687 4.475 9.524 9.019 10.751l46.579 12.579a1851.25 1851.25 0 008.296 2.231c.021 0 3.753-1.006 8.296-2.233l46.663-12.609c4.541-1.227 8.602-6.066 9.023-10.751l5.06-56.427c.421-4.687-3.085-8.522-7.791-8.522H137.765c-4.706 0-8.896-3.836-9.314-8.521l-12.416-139.126c-.418-4.687-1.066-11.942-1.441-16.124-.371-4.18 3.172-7.601 7.878-7.601H389.191c4.705-.002 8.25 3.418 7.877 7.6z" fill="#dd512a"/></svg>
+      </div>
+
+   
+          
+
+
+    
+      <div class="col-4">
+      <svg class="js-icon" viewBox="0 0 256.4 291.5" height="56.693px" width="56.693px"><path d="M23.788 262.015l-23.8-262 256.4.1-23.6 261.7-104.8 29.6-104.2-29.4zm189.7-14.3l19.9-224.4h-105l.8 247.5 84.3-23.1zm-94.9-191.5h-25.5l-.3 134.3-49.5-13.5.1 30.7 75.2 20.3v-171.8z" fill="#d4b830"/><path d="M110.188 225.515c-3.3-1-19.6-5.4-36.2-9.9l-30.1-8.1v-15.1c0-14.8 0-15.1 1.5-14.6.8.3 11.8 3.3 24.4 6.8l22.9 6.3.2-67 .2-67h25v85.2c0 67.7-.2 85.2-.9 85.2-.5-.1-3.7-.9-7-1.8z" opacity=".986" fill="none"/><path d="M43.388 207.715l-.1-30.7s31.6 8.9 49.5 13.5l.3-134.2h25.5v171.7l-75.2-20.3z" fill-opacity=".922" opacity=".986" fill="#ebebeb"/><path d="M128.388 23.215h105l-19.9 224.4-85.1 23.1v-247.5zm79.7 186.8l6.9-83.9-51 5.7v-44.8l54.4-.2 2.2-30.6-82.1.4 1.1 111.4 49.6-8.5-.7 24.8-50 13.3.5 30.4 69.1-18z" fill="#fdd83c"/></svg>
     </div>
-  </div> 
+ 
+          
+
+       </div>    
+
+</div>
+</div>
+ 
+
   </div> 
 
 
@@ -55,72 +78,38 @@
     <div class="container">
         
           <div class="container row">
-            <div class="profile-image img-responsive mx-auto d-block">
+            <div class="profile-image mx-auto d-block order-lg-2 pt-2">
               <img src="img/IMG_3733.jpg" alt="profile" class="img-fluid" alt="Responsive image">
             </div>
-              <div class="col-lg order-1 bg-white">
-                    <h3 class="text-center">About Me</h3>
+              <div class="col-lg-4 order-1 bg-white">
+                    <h3 class="text-center pt-2">About Me</h3>
                   <p class="text-center">I am a web developer who is passonate about creating responsive websites. I love living in Los Angeles surrounded by diverse cultures, beautiful beaches, amazing hikes and incredible food.  In my free time I love to build websites for my firends and family members.</p> 
+             
+
+              <div class="col">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Message Me">
+                  <span class="input-group-btn">
+                    <button class="btn btn-primary" type="button">Email</button>
+                  </span>
+                </div>
               </div>
+            </div>
          
     </div>
-       <!-- signup form -->
-       <hr>
-       <div class="container row py-4 ml-2">
-         <div class="col-md col-xl-4">
-           <p class="text-center"><strong>How I can help your buisness</strong></p>
-           <p class="text-center">I can help you market your buisness online by creating beautiful, functional websites that will attract attention for future clients</p>
-         </div>
-         <div class="col-md col-lg-4">
-           <p class="text-center"><strong>Message me here</strong></p>
-           <div class="input-group">
-             <input type="text" class="form-control" placeholder="Email">
-             <span class="input-group-btn">
-               <button class="btn btn-primary" type="button">Email</button>
-             </span>
-           </div>
-         </div>
-       </div>
-       <hr>
-<!-- /signup form -->
+
           
     <!-- SVG Container -->
-        <div class="container-fluid svg">
-         
-                <h3 class="p-2 text-center">Experience</h3>
-                <div class="row ml-2">
-                 <div class="col-4">
-                  <?xml version="1.0" encoding="iso-8859-1"?><svg class="css-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470.699 470.699" height="56.693px" width="56.693px"><path d="M426.981 0H43.701C34.52 0 27.632 7.769 28.442 16.949L63.45 409.254c.811 9.173 8.745 18.774 17.644 21.253L219.1 468.842c8.887 2.463 23.413 2.479 32.313.032l138.177-38.281c8.901-2.472 16.835-11.986 17.645-21.175l35.023-392.469C443.068 7.769 436.209 0 426.981 0zM360.51 141.611a.134.134 0 01-.112.117.134.134 0 01-.144-.077L252.13 185.96a3.485 3.485 0 001.321 6.708h84.103a15.772 15.772 0 0115.682 17.443l-13.141 123.273a15.77 15.77 0 01-10.447 13.205l-89.269 31.41a15.761 15.761 0 01-10.397.025l-88.852-30.778a15.771 15.771 0 01-10.52-13.228l-5.957-55.828a10.388 10.388 0 0110.331-11.492h24.725c5.313 0 9.769 4.007 10.331 9.289l3.655 34.316 61.521 21.385 61.803-21.58 7.559-71.17H129.835a10.39 10.39 0 01-10.327-9.25l-3.327-30.164a10.388 10.388 0 016.366-10.745l111.837-46.109a2.872 2.872 0 00-1.093-5.528H115.542a6.926 6.926 0 01-6.888-6.201l-3.406-32.421a6.927 6.927 0 016.887-7.648h246.379a6.928 6.928 0 016.881 7.707l-4.885 43.032z"/></svg>
-                </div>
-
-                  <div class="col-4">
-                  <svg class="html-icon" viewBox="0 0 511.997 511.997" height="56.693px" width="56.693px" ><path d="M38.238 0c-4.706 0-8.212 3.835-7.794 8.521l39.671 444.978c.418 4.687 4.468 9.552 9.004 10.811l168.344 46.742c4.535 1.259 11.954 1.259 16.49.003l168.856-46.819c4.535-1.258 8.59-6.122 9.007-10.808L481.553 8.521C481.974 3.835 478.464 0 473.758 0H38.238zm358.83 102.054c-.375 4.18-1.023 11.437-1.441 16.124l-1.045 11.675c-.421 4.685-1.02 11.386-1.336 14.889-.315 3.504-.614 6.371-.669 6.371H184.39c-4.706 0-8.212 3.835-7.794 8.521l3.667 40.99c.418 4.685 4.612 8.521 9.317 8.521h190.299c4.191 0 7.312 3.421 6.932 7.601-.382 4.18-1.034 11.439-1.451 16.124l-11.791 132.15c-.421 4.687-.953 10.674-1.182 13.306-.234 2.63-4.134 5.811-8.669 7.069l-99.474 27.582a2971.712 2971.712 0 01-8.373 2.312c-.07.015-3.836-1.003-8.373-2.26l-99.58-27.632c-4.535-1.258-8.587-6.122-9.004-10.809l-6.41-71.945c-.418-4.687 3.092-8.522 7.798-8.522h39.751c4.706 0 8.896 3.835 9.317 8.522l2.514 28.164c.418 4.687 4.475 9.524 9.019 10.751l46.579 12.579a1851.25 1851.25 0 008.296 2.231c.021 0 3.753-1.006 8.296-2.233l46.663-12.609c4.541-1.227 8.602-6.066 9.023-10.751l5.06-56.427c.421-4.687-3.085-8.522-7.791-8.522H137.765c-4.706 0-8.896-3.836-9.314-8.521l-12.416-139.126c-.418-4.687-1.066-11.942-1.441-16.124-.371-4.18 3.172-7.601 7.878-7.601H389.191c4.705-.002 8.25 3.418 7.877 7.6z" fill="#dd512a"/></svg>
-                </div>
-
-             
-                    
-
-
-              
-                <div class="col-4">
-                <svg class="js-icon" viewBox="0 0 256.4 291.5" height="56.693px" width="56.693px"><path d="M23.788 262.015l-23.8-262 256.4.1-23.6 261.7-104.8 29.6-104.2-29.4zm189.7-14.3l19.9-224.4h-105l.8 247.5 84.3-23.1zm-94.9-191.5h-25.5l-.3 134.3-49.5-13.5.1 30.7 75.2 20.3v-171.8z" fill="#d4b830"/><path d="M110.188 225.515c-3.3-1-19.6-5.4-36.2-9.9l-30.1-8.1v-15.1c0-14.8 0-15.1 1.5-14.6.8.3 11.8 3.3 24.4 6.8l22.9 6.3.2-67 .2-67h25v85.2c0 67.7-.2 85.2-.9 85.2-.5-.1-3.7-.9-7-1.8z" opacity=".986" fill="none"/><path d="M43.388 207.715l-.1-30.7s31.6 8.9 49.5 13.5l.3-134.2h25.5v171.7l-75.2-20.3z" fill-opacity=".922" opacity=".986" fill="#ebebeb"/><path d="M128.388 23.215h105l-19.9 224.4-85.1 23.1v-247.5zm79.7 186.8l6.9-83.9-51 5.7v-44.8l54.4-.2 2.2-30.6-82.1.4 1.1 111.4 49.6-8.5-.7 24.8-50 13.3.5 30.4 69.1-18z" fill="#fdd83c"/></svg>
-              </div>
-           
-                    
-          
-                 </div>    
-         
-      </div>
-    </div>
+       
     <hr>
        <!-- Projects -->
       
-       <h3 class="p-2 text-center">Projects</h3>
+       <h1 class="display-4 my-5 text-center" id="projects">Projects</h1>
        <div class="container-fluid">
 
 
          
-         <div class="card mb-3 col-sm">
+         <div class="card mb-3">
            <a href="projects/phrase_guessing_game/index.html" target="blank"><img src="img/guessingGame.jpg" class="card-guessing" alt="guessing-game"></a>
              <div class="card-body">
                <h5 class="card-title text-center">Phrase Guessing Game</h5>
@@ -128,9 +117,8 @@
              </div>
            </div>
          
-         <div class="row">
-           <div class="card mb-3 col-sm">
-           <a href="projects/phrase_guessing_game/web_app_dashb/index.html" target="blank"><img src="img/webAppDash.jpg" class="card-img" alt="app dashboard"></a>
+         <div class="card mb-3">
+           <a href="projects/web_app_dashb/index.html" target="blank"><img src="img/webAppDash.jpg" class="card-img" alt="app dashboard"></a>
            <div class="card-body">
              <h5 class="card-title text-center">Web App Dashboard</h5>
              <p class="card-text">An interactive dashboard for a web application using advanced web techniques including SVG graphics and JavaScript programming. The project involves creating tables, charts, graphics and other user interface components in a manner that promotes interactivity and usability. </p>
@@ -140,17 +128,16 @@
 
 
 
-      <div class="card mb-3 col-sm">
+      <div class="card mb-3">
        <a href="projects/web_style_guide/index.html" target="blank"><img src="img/styleGuide.jpg" class="card-style-guide" alt="style guide"></a>
        <div class="card-body">
          <h4 class="card-title text-center pt-3">Web Style Guide</h4>
          <p class="card-text">Using SASS I created a style guide that can act as your own personal and custom Bootstrap that you can drop into any of your projects to speed up styling, layout and development in general.</p>
        </div>
      </div>
-   </div>
-        
-      <div class="row">
-           <div class="card mb-3 col-sm">
+  
+    
+           <div class="card mb-3">
              <a href="projects/photo_gallery/index.html" target="blank"><img src="img/photoGallery.jpg" class="card-img" alt="photo gallery"></a>
              <div class="card-body">
                <h4 class="card-title text-center">Interactive Photo Gallery</h4>
@@ -159,53 +146,42 @@
           </div>
          
         
-           <div class="card mb-3 col-sm">
-          
-
-           <a href="projects/employee_direct/index.html" target="blank"><img src="img/employDirect.jpg" class="card-emp-direct" alt="employee directory"></a>
+           <div class="card mb-3">
+              <a href="projects/employee_direct/index.html" target="blank"><img src="img/employDirect.jpg" class="card-emp-direct" alt="employee directory"></a>
              <div class="card-body align-bottom">
                <h4 class="card-title text-center">Employee Directory</h4>
-               <p class="card-text">An employee directory that communicates with a third-party API.</p>
+               <p class="card-text text-center">An employee directory that communicates with a third-party API.</p>
             
              </div>
        </div>
-       </div>
+       
 
    <!-- signup form -->
                 <hr>
-                <div class="container row py-4 ml-2">
+                <!-- <div class="container row py-4 ml-2" id="contact">
                   <div class="col-md col-xl-4">
                     <p class="text-center"><strong>How I can help your buisness</strong></p>
                     <p class="text-center">I can help you market your buisness online by creating beautiful, functional websites that will attract attention for future clients</p>
                   </div>
-                  <div class="col-md col-lg-4">
-                    <p class="text-center"><strong>Message me here</strong></p>
-                    <div class="input-group">
-                      <input type="text" class="form-control" placeholder="Email">
-                      <span class="input-group-btn">
-                        <button class="btn btn-primary" type="button">Email</button>
-                      </span>
-                    </div>
-                  </div>
+                  
                 </div>
-                <hr>
+                <hr> -->
         <!-- /signup form -->
 
 
         <!-- footer -->
-        <div class="container footer">
-          <div class="row">
-          <div class="col-md-7"> 
+        <div class="row py-3">
+          <div class="col-md-7">
               <ul class="nav">
                   <li class="nav-item">
                     <a class="nav-link text-secondary" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-secondary" href="projects.html">Projects</a>
+                    <a class="nav-link text-secondary" href="#projects">Projects</a>
                   </li>
                   
                   <li class="nav-item">
-                    <a class="nav-link text-secondary" href="contact.html">Contact</a>
+                    <a class="nav-link text-secondary" href="#contact">Contact</a>
                   </li>
                   
               </ul>

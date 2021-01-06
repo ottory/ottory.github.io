@@ -23,8 +23,8 @@
 
 /* cards */
 
-.card-img {
-    width: 45%;
+ .card-img {
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -34,7 +34,7 @@
 }
 
 .card-style-guide {
-  width: 30%;
+  width: 40%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -61,7 +61,7 @@
 }
 
 .card {
-  border: none;
+  border: 1px solid, lightgrey;
 }
 
 /* .card-img1 {
@@ -94,7 +94,10 @@
   
   
   } 
-  
+  .css-icon {
+   
+   
+  }
   .css-icon:hover {
     transform: rotate(-360deg) scale(1.3);
     transition: transform .4s ease-out;
@@ -148,7 +151,7 @@
 }
 @media (min-width:768px){
   .profile-image {
-    width: 32%;
+    width: 20%;
     padding-left: 50px;
   }
   .svg {
