@@ -16,7 +16,7 @@
 }
 /* profile image  */
 .profile-image {
-  width: 40%;
+  width: 20%;
   
 }
 
@@ -151,13 +151,21 @@
 }
 @media (min-width:768px){
   .profile-image {
-    width: 20%;
-    padding-left: 50px;
+    
+    
+    padding-top: 40px;
   }
   .svg {
     text-align: center;
   }
   .title {
-    padding-bottom: 40px;
+    padding-bottom: 50px;
   }
+  .about {
+    padding-top: 40px;
+  }
+  .message {
+    padding-top: 40px;
+  }
+  
 }

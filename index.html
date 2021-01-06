@@ -40,10 +40,10 @@
 <!-- Jumbotron -->
 
 <div class="jumbotron jumbotron-fluid bg-info text-white">
-    <div class="container text-center mt-2">
+    <div class="container  text-center mt-2">
     <h1 class="display-6">Web Developer</h1>
 
-    <div class="container-fluid  pt-3">
+    <div class="pt-3">
          
       <div class="row ml-2">
        <div class="col-4">
@@ -75,27 +75,28 @@
 
 
 <!-- About/Intrests -->
-    <div class="container">
+    
         
-          <div class="container row">
-            <div class="profile-image mx-auto d-block order-lg-2 pt-2">
-              <img src="img/IMG_3733.jpg" alt="profile" class="img-fluid" alt="Responsive image">
-            </div>
-              <div class="col-lg-4 order-1 bg-white">
-                    <h3 class="text-center pt-2">About Me</h3>
-                  <p class="text-center">I am a web developer who is passonate about creating responsive websites. I love living in Los Angeles surrounded by diverse cultures, beautiful beaches, amazing hikes and incredible food.  In my free time I love to build websites for my firends and family members.</p> 
-             
-
-              <div class="col">
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Message Me">
-                  <span class="input-group-btn">
-                    <button class="btn btn-primary" type="button">Email</button>
-                  </span>
+      <div class="container">
+          <div class="row">
+                <div class="col-md-3 profile-image mx-auto">
+                  <img src="img/IMG_3733.jpg" alt="profile" class="img-fluid" alt="Responsive image">
                 </div>
-              </div>
-            </div>
-         
+                  <div class="col-md-6 about">
+                        <h3 class="text-center">About Me</h3>
+                      <p class="text-center">I am a web developer who is passonate about creating responsive websites. I love living in Los Angeles surrounded by diverse cultures, beautiful beaches, amazing hikes and incredible food.  In my free time I love to build websites for my firends and family members.</p> 
+                    
+                 
+                      
+                        <div class="input-group message">
+                          <input type="text" class="form-control" placeholder="Message Me">
+                          <span class="input-group-btn">
+                            <button class="btn btn-primary" type="button">Email</button>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+          </div>   
     </div>
 
           
@@ -103,58 +104,62 @@
        
     <hr>
        <!-- Projects -->
-      
-       <h1 class="display-4 my-5 text-center" id="projects">Projects</h1>
-       <div class="container-fluid">
-
-
-         
-         <div class="card mb-3">
-           <a href="projects/phrase_guessing_game/index.html" target="blank"><img src="img/guessingGame.jpg" class="card-guessing" alt="guessing-game"></a>
-             <div class="card-body">
-               <h5 class="card-title text-center">Phrase Guessing Game</h5>
-               <p class="card-text">A browser version of “Wheel of Success”, a word guessing game using Javascript to come up with a random phrase that players will try to guess by entering different letters into the program.</p>
-             </div>
-           </div>
-         
-         <div class="card mb-3">
-           <a href="projects/web_app_dashb/index.html" target="blank"><img src="img/webAppDash.jpg" class="card-img" alt="app dashboard"></a>
-           <div class="card-body">
-             <h5 class="card-title text-center">Web App Dashboard</h5>
-             <p class="card-text">An interactive dashboard for a web application using advanced web techniques including SVG graphics and JavaScript programming. The project involves creating tables, charts, graphics and other user interface components in a manner that promotes interactivity and usability. </p>
-          
-           </div>
-         </div>
-
-
-
-      <div class="card mb-3">
-       <a href="projects/web_style_guide/index.html" target="blank"><img src="img/styleGuide.jpg" class="card-style-guide" alt="style guide"></a>
-       <div class="card-body">
-         <h4 class="card-title text-center pt-3">Web Style Guide</h4>
-         <p class="card-text">Using SASS I created a style guide that can act as your own personal and custom Bootstrap that you can drop into any of your projects to speed up styling, layout and development in general.</p>
-       </div>
-     </div>
-  
-    
-           <div class="card mb-3">
-             <a href="projects/photo_gallery/index.html" target="blank"><img src="img/photoGallery.jpg" class="card-img" alt="photo gallery"></a>
-             <div class="card-body">
-               <h4 class="card-title text-center">Interactive Photo Gallery</h4>
-               <p class="card-text"> An Interactive photo gallery created using HTML, CSS and JavaScript to create an interactive, searchable gallery of photos..</p>
-             </div>
-          </div>
-         
-        
-           <div class="card mb-3">
-              <a href="projects/employee_direct/index.html" target="blank"><img src="img/employDirect.jpg" class="card-emp-direct" alt="employee directory"></a>
-             <div class="card-body align-bottom">
-               <h4 class="card-title text-center">Employee Directory</h4>
-               <p class="card-text text-center">An employee directory that communicates with a third-party API.</p>
-            
-             </div>
-       </div>
        
+       <h1 class="display-4 my-5 text-center" id="projects">Projects</h1>
+       <div class="container">
+         <div class="row">
+
+
+         
+              <div class="card mb-3 col-md-4">
+                <a href="projects/phrase_guessing_game/index.html" target="blank"><img src="img/guessingGame.jpg" class="card-guessing" alt="guessing-game"></a>
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Phrase Guessing Game</h5>
+                    <p class="card-text">A browser version of “Wheel of Success”, a word guessing game using Javascript to come up with a random phrase that players will try to guess by entering different letters into the program.</p>
+                  </div>
+                </div>
+              
+              <div class="card mb-3 col-md-4">
+                <a href="projects/web_app_dashb/index.html" target="blank"><img src="img/webAppDash.jpg" class="card-img" alt="app dashboard"></a>
+                <div class="card-body">
+                  <h5 class="card-title text-center">Web App Dashboard</h5>
+                  <p class="card-text">An interactive dashboard for a web application using advanced web techniques including SVG graphics and JavaScript programming. The project involves creating tables, charts, graphics and other user interface components in a manner that promotes interactivity and usability. </p>
+                
+                </div>
+              </div>
+
+
+
+                <div class="card mb-3 col-md-4">
+                <a href="projects/web_style_guide/index.html" target="blank"><img src="img/styleGuide.jpg" class="card-style-guide" alt="style guide"></a>
+                <div class="card-body">
+                  <h4 class="card-title text-center pt-3">Web Style Guide</h4>
+                  <p class="card-text">Using SASS I created a style guide that can act as your own personal and custom Bootstrap that you can drop into any of your projects to speed up styling, layout and development in general.</p>
+                </div>
+              </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="card mb-3 col-md-6">
+                  <a href="projects/photo_gallery/index.html" target="blank"><img src="img/photoGallery.jpg" class="card-img" alt="photo gallery"></a>
+                  <div class="card-body">
+                    <h4 class="card-title text-center">Interactive Photo Gallery</h4>
+                    <p class="card-text"> An Interactive photo gallery created using HTML, CSS and JavaScript to create an interactive, searchable gallery of photos..</p>
+                  </div>
+                </div>
+              
+                <div class="card mb-3 col-md-6">
+                    <a href="projects/employee_direct/index.html" target="blank"><img src="img/employDirect.jpg" class="card-emp-direct" alt="employee directory"></a>
+                  <div class="card-body align-bottom">
+                    <h4 class="card-title text-center">Employee Directory</h4>
+                    <p class="card-text text-center">An employee directory that communicates with a third-party API.</p>
+                  
+                  </div>
+           </div>
+        </div>
+      
+</div>  
 
    <!-- signup form -->
                 <hr>
