@@ -5,6 +5,22 @@
     padding-bottom: 16%
 }
 
+.jumbotron .row.ml-2 {
+  margin-right: unset;
+}
+.jumbotron > .container .pt-3 {
+  margin-left: -10px;
+}
+#alert {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+
+
+
 .social-image-icon-twitter {
     width: 5px;
     height: 5px;
