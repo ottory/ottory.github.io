@@ -10,7 +10,7 @@ alertBanner.innerHTML =
   <p class="alert-banner-close">x</p>
   </div>
 `
-;
+
 
 ////alert banner event listener to turn display off when clicked ///
 
