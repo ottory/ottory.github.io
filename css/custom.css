@@ -20,6 +20,36 @@
   
 }
 
+/* aler banner */
+.alert-banner { 
+  display: flex;
+  /* align-items: center; */
+  background-color: transparent;
+  color: rgb(227, 248, 107);
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 10px; 
+  padding-left: 10px;
+ }
+
+.alert-banner-close {
+ padding-right: 15px; 
+ padding-left: 15px;
+ font-size: 15px;
+ color: #f4f80a;
+}
+
+.alert-banner-close:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
 
 /* cards */
 
@@ -30,8 +60,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
-    
-
 }
 
 .card-style-guide {
@@ -48,7 +76,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
-  
 }
 
 .card-guessing {
@@ -57,34 +84,12 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
-  
-
 }
 
 .card {
   border: none;
 }
 
-/* .card-img1 {
-    width: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-   
-
-}
-
-.card-img2 {
-    width: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-
-    
-
-} */
 /* Icons */
 .lang-image-icon {
     display: flex;
@@ -94,33 +99,34 @@
     margin-right: 20%; 
   
   
-  } 
+} 
   
-  .css-icon:hover {
+.css-icon:hover {
     transform: rotate(-360deg) scale(1.3);
     transition: transform .4s ease-out;
       
-  }
+}
 
    
-  .html-icon:hover {
+.html-icon:hover {
     transform: rotate(360deg) scale(1.3);
     transition: transform .4s ease-out;
       
-  }
-   
- 
-  .js-icon:hover {
+}
+
+.js-icon:hover {
     transform: rotate(-360deg) scale(1.3);
     transition: transform .4s ease-out;
-      
-  }
+}
+
 .twitter-icon {
   width: 28px;
 }
+
 .facebook-icon {
   width: 28px;
 }
+
 .github-icon {
   width: 26px;
 }
